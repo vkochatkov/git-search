@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async actions creates FETCH_TODO_SUCCESS when fetching to-dos has been done 1`] = `
+Array [
+  Object {
+    "type": "SET_LOADING",
+  },
+  Object {
+    "payload": Array [
+      Object {
+        "avatar_url": "https://avatars3.githubusercontent.com/u/61251470?v=4",
+        "events_url": "https://api.github.com/users/kochatkov/events{/privacy}",
+        "followers_url": "https://api.github.com/users/kochatkov/followers",
+        "following_url": "https://api.github.com/users/kochatkov/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kochatkov/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/kochatkov",
+        "id": 61251470,
+        "login": "kochatkov",
+        "node_id": "MDQ6VXNlcjYxMjUxNDcw",
+        "organizations_url": "https://api.github.com/users/kochatkov/orgs",
+        "received_events_url": "https://api.github.com/users/kochatkov/received_events",
+        "repos_url": "https://api.github.com/users/kochatkov/repos",
+        "score": 1,
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/kochatkov/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kochatkov/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/kochatkov",
+      },
+    ],
+    "type": "SEARCH_USERS",
+  },
+]
+`;

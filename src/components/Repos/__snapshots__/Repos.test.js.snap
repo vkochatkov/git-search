@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repos component should render Repos component 1`] = `
+Object {
+  "props": Object {
+    "repos": Array [
+      Object {
+        "html_url": "https://avatars2.githubusercontent.com/u/39588133?v=4",
+        "id": 2,
+        "name": "\\"fafaf\\"",
+      },
+    ],
+  },
+  "wrapper": <Fragment>
+    <div
+      className="card mb-3"
+      key="2"
+    >
+      <div
+        className="card-body"
+      >
+        <h5>
+          <a
+            href="https://avatars2.githubusercontent.com/u/39588133?v=4"
+            rel="noreferrer"
+            target="_blank"
+          >
+            "fafaf"
+          </a>
+        </h5>
+      </div>
+    </div>
+  </Fragment>,
+}
+`;
